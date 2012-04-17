@@ -1,10 +1,11 @@
+<% provide :title, 'About' %>
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Ruby on Rails Tutorial Sample App | About</title>
+		<title>Ruby on Rails Tutorial Sample App | <%= yield :title %></title>
 	</head>
 	<body>
-		<h1>About</h1>
+		<h1>Sample App</h1>
 		<p>
 			The <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
 			is a project to make a book and screencasts to teach web development
